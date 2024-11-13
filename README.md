@@ -6,7 +6,7 @@ Some exercises for Programing Quantum Computer with QASM Language from **[Quantu
 
 First of all:
 
-* We a qubits. They are bits of Quantum Computer and work same as original bits. (If we want of course)
+* There are qubits. They are bits of Quantum Computer and work same as original bits. (If we want of course)
 * You gonna see this $`∣ψ⟩`$ fromula often. Means our qubit's value. Which also `ψ` can be `0` or `1`. Or **both**... Scary right? Also this formula called **Quantum State Notation**.
 
 ## Version Declaration
