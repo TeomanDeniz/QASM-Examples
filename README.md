@@ -7,7 +7,7 @@ Some exercises for Programing Quantum Computer with QASM Language from **[Quantu
 First of all:
 
 * There are qubits. They are bits of Quantum Computer and work same as original bits. (If we want of course)
-* You gonna see this $`∣ψ⟩`$ fromula often. Means our qubit's value. Which also `ψ` can be `0` or `1`. Or **both**... Scary right? Also this formula called **Quantum State Notation**.
+* You gonna see this $`∣\psi⟩`$ fromula often. Means our qubit's value. Which also `ψ` can be `0` or `1`. Or **both**... Scary right? Also this formula called **Quantum State Notation**.
 
 ## Version Declaration
 
@@ -39,10 +39,10 @@ Like classical bits, a single qubit is the smallest unit of information in a qua
 However, due to superposition, a qubit can represent 0, 1, or both at once in a probabilistic combination. Mathematically, it’s represented as:
 
 $$
-∣ψ⟩=a∣0⟩+b∣1⟩
+∣\psi⟩=\alpha∣0⟩+\beta∣1⟩
 $$
 
-where α and β are probability amplitudes, and $`\left|a\right|^{2}+\left|b\right|^{2}=1`$
+where α and β are probability amplitudes, and $`\left|\alpha\right|^{2}+\left|\beta\right|^{2}=1`$
 
 * In QASM, qubits are usually declared as a register, e.g., `qreg q[3];` in QASM 2.0 or 3.0. This line would look like:
 
@@ -83,7 +83,7 @@ This command puts your qubit(s) into a superposition state $`\frac{|0> + |1>}{\s
 
 Without that, our qubit will act like normal bits. (Like 1 or 0).
 
-But with that, our qubit act like it's both 1 or 0 or between that (0.4, etc)
+But with that, our qubit act like it's both 1 or 0.
 
 Now, you may ask: ***WHY???***
 
